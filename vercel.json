@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "career-assesment-tool/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "career-assesment-tool/dist" }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "career-assesment-tool/dist/$1" }
+  ]
+}
