@@ -1,5 +1,7 @@
+
 {
   "version": 2,
+  "outputDirectory": "career-assesment-tool/dist",
   "builds": [
     {
       "src": "career-assesment-tool/package.json",
